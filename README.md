@@ -9,17 +9,18 @@ This is an adaptation of a short project with the FreeCodeCamp JavaScript Algori
 4. When you click on the #convert-btn element without entering a value into the #number element, the #output element should contain the text "Please enter a valid number".
 5. When the #number element contains the number -1 and the #convert-btn element is clicked, the #output element should contain the text "Please enter a number greater than or equal to 1".
 6. When the #number element contains a non-integer and the #convert-btn element is clicked, the #output element should contain the text "Please enter a valid integer".
-6. When the #number element contains the number 4 000 000 or greater and the #convert-btn element is clicked, the #output element should contain the text "Please enter a number less than or equal to 3 999 999".
-7. When the #number element contains the number 9 and the #convert-btn element is clicked, the #output element should contain the text "IX".
-8. When the #number element contains the number 16 and the #convert-btn element is clicked, the #output element should contain the text "XVI".
-9. When the #number element contains the number 649 and the #convert-btn element is clicked, the #output element should contain the text "DCXLIX".
-10. When the #number element contains the number 1023 and the #convert-btn element is clicked, the #output element should contain the text "MXXIII".
-11. When the #number element contains the number 3999 and the #convert-btn element is clicked, the #output element should contain the text "MMMCMXCIX".
-12. When the #number element contains the number 4000 and the #convert-btn element is clicked, the #output element should contain the text "I̅V̅".
-13.When the #number element contains the number 51 000 and the #convert-btn element is clicked, the #output element should contain the text "L̅I̅".
-14.When the #number element contains the number 99 999 and the #convert-btn element is clicked, the #output element should contain the text "X̅C̅I̅X̅CMXCIX".
-15.When the #number element contains the number 999 999 and the #convert-btn element is clicked, the #output element should contain the text "C̅M̅X̅C̅I̅X̅CMXCIX".
-16. When the #number element contains the number 3 999 999 and the #convert-btn element is clicked, the #output element should contain the text "M̅M̅M̅C̅M̅X̅C̅I̅X̅CMXCIX".
+7. When the #number element contains the number 4 000 000 or greater and the #convert-btn element is clicked, the #output element should contain the text "Please enter a number less than or equal to 3 999 999".
+8. When the #number element contains the number 9 and the #convert-btn element is clicked, the #output element should contain the text "IX".
+9. When the #number element contains the number 16 and the #convert-btn element is clicked, the #output element should contain the text "XVI".
+10. When the #number element contains the number 649 and the #convert-btn element is clicked, the #output element should contain the text "DCXLIX".
+11. When the #number element contains the number 1023 and the #convert-btn element is clicked, the #output element should contain the text "MXXIII".
+12. When the #number element contains the number 3999 and the #convert-btn element is clicked, the #output element should contain the text "MMMCMXCIX".
+13. When the #number element contains the number 4000 and the #convert-btn element is clicked, the #output element should contain the text "I̅V̅".
+14. When the #number element contains the number 51 000 and the #convert-btn element is clicked, the #output element should contain the text "L̅I̅".
+15. When the #number element contains the number 99 999 and the #convert-btn element is clicked, the #output element should contain the text "X̅C̅I̅X̅CMXCIX".
+16. When the #number element contains the number 999 999 and the #convert-btn element is clicked, the #output element should contain the text "C̅M̅X̅C̅I̅X̅CMXCIX".
+17. When the #number element contains the number 3 888 888 and the #convert-btn element is clicked, the #output element should contain the text "M̅M̅M̅D̅C̅C̅C̅L̅X̅X̅X̅V̅I̅I̅I̅DCCCLXXXVIII". (With an appropriately flexible container).
+18. When the #number element contains the number 3 999 999 and the #convert-btn element is clicked, the #output element should contain the text "M̅M̅M̅C̅M̅X̅C̅I̅X̅CMXCIX".
 
  M̅
  D̅

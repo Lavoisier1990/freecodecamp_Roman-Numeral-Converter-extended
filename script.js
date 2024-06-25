@@ -27,8 +27,19 @@ function romanConverter(){
     }else if(parseInt(inputNumber.value) > 0 && parseInt(inputNumber.value) < 4000) {
         outputDiv.classList.add("output");
         outputDiv.innerText = convertToRoman(parseInt(inputNumber.value));
-    }else if(parseInt(inputNumber.value) >= 4000){
-        outputDiv.innerText = "Please enter a number less than or equal to 3999";
+    }else if(parseInt(inputNumber.value) >= 4000 && parseInt(inputNumber.value) < 4000000) {
+        const regex =/[a-zA-Z]/g
+        outputDiv.classList.add("output");
+        outputDiv.innerText = extConvertToRoman(parseInt(inputNumber.value));
+        if(extConvertToRoman(parseInt(inputNumber.value)).match(regex).length > 16 && extConvertToRoman(parseInt(inputNumber.value)).match(regex).length <= 23){
+            outputDiv.style.fontSize = "170%";
+            outputDiv.style.padding = "8px 12px";
+        }else if(extConvertToRoman(parseInt(inputNumber.value)).match(regex).length > 23){
+            outputDiv.style.fontSize = "145%";
+            outputDiv.style.padding = "10px 12px";
+        }
+    }else if(parseInt(inputNumber.value) >= 4000000){
+        outputDiv.innerText = "Please enter a number less than or equal to 3 999 999";
     }
 }
 
@@ -55,7 +66,14 @@ function extConvertToRoman(inputNumber){
 
     let extRomanResult = "";
 
+    for(let i = 0; i < extArabicNumerals.length; i++){
+       while(inputNumber >= extArabicNumerals[i]){
+           extRomanResult += extRomanNumerals[i];
+           inputNumber -= extArabicNumerals[i];
+       }
+    }
 
+   return extRomanResult;
 };
 
 inputNumber.addEventListener("keypress", function(event) {
